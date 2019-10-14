@@ -1,6 +1,14 @@
 @import "bootstrap";
 
 h1 {
-	color: blue;
+	color: white;
 	text-align: center;
+}
+
+body {
+  background: url('bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
 }
