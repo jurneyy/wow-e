@@ -1,14 +1,20 @@
 @import "bootstrap";
 
 h1, h2 {
-	color: black;
+	color: maroon;;
 	text-align: center;
 }
 
-body {
-  background: url('bg.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 700px;
+.info {
+	font-style: italic;
+	text-indent: 10px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.nav {
+	color: maroon;
+	font-size: 26px;
 }
