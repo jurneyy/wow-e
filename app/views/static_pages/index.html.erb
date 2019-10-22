@@ -1,13 +1,17 @@
 <br /><br />
-<h1>Computer builds</h1>
+<h1>Computers</h1>
 
+<% @computers.each do |computer| %>
+  <div>
+    <h4><%= computer.name %></h4><br />
+    <p><%= computer.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
 
 <br />
 <br /><br />
-	<p class="info">
-		There are many components involved with bulding gaming computers, here are some of my favorites.
-	</p>
-<br class="clear" />
 
 <div class="Picture">
 	<h2>Pictures</h2> 
