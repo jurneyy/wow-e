@@ -2,12 +2,10 @@
 <h1>Computers</h1>
 
 <% @computers.each do |computer| %>
-  <div>
+  <div class="booyah-box col-10 offset-1">
     <h4><%= computer.name %></h4><br />
     <p><%= computer.description %></p><br />
   </div>
-
-  <hr />
 <% end %>
 
 <br />
