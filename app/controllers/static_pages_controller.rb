@@ -3,8 +3,7 @@ class StaticPagesController < ApplicationController
 		@computers = Computer.all
   end
 
-
   def new
-  	
+  	@computer = Computer.new
   end
 end
