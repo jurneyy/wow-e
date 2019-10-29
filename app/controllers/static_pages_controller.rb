@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
   def new
   	@computer = Computer.new
   end
+
+  def create
+  end
 end
